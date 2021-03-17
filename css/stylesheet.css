@@ -3,7 +3,7 @@
 html,body {
     min-height: 100%;
     font-family: 'Ubuntu Mono', monospace;
-    background-color: #1e1e1e;
+    background-color: #f1f1f1;
 }
 
 img {
@@ -21,6 +21,9 @@ img {
     font-size: 60px
 }
 
-#sidepanel {
+.sidebar{
+    color: #f1f1f1;
     background-color:#1e1e1e;
+    height: 100%;
+    border-left: 0%;
 }
