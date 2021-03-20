@@ -1,9 +1,5 @@
 @import 'https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap';
 
-:root {
-    --socials-move: 50px;
-}
-
 html,body {
     min-height: 100%;
     font-family: 'Ubuntu Mono', monospace;
@@ -63,76 +59,10 @@ img {
 
 }
 
- ul {
-      list-style-type: none;
-}
-
-.accordion {
-    width: 100%;
-    max-width: 220px;
-    text-align: center;
-    display: block;
-    background: #1e1e1e;
-}
-
-.accordion .link {
-    cursor: pointer;
-    display: block;
-    padding: 15px 15px 15px 42px;
-    color: #a39f9f;
-    font-size: 14px;
-
-    border-bottom: 1px solid #CCC;
-    position: relative;
-    -webkit-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-.accordion li:last-child .link {
-    border-bottom: 0;
-}
-
-.accordion li i {
-    position: absolute;
-    top: 16px;
-    left: 12px;
-    font-size: 18px;
-    color: #595959;
-    -webkit-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-.accordion li i.fa-chevron-down {
-    right: 12px;
-    left: auto;
-    font-size: 16px;
-}
-
-.accordion li.open i.fa-chevron-down {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.submenu {
-    display: none;
-    background: #1e1e1e;
-    font-size: 14px;
-}
-
-.submenu a {
-    display: block;
+.sidebar span {
+    display:block;
     text-align:center;
-    text-decoration: none;
     color: #a39f9f;
-    -webkit-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-}
-
-.submenu a:hover {
-    color: #FFF;
+    font-weight: 700;
+    text-decoration:underline;
 }
