@@ -3,11 +3,13 @@
 html,body {
     min-height: 100%;
     font-family: 'Ubuntu Mono', monospace;
-    overflow:hidden;
+    overflow: hidden;
+    background-color: #808080;
 }
 
 #main {
     background-color: #808080;
+    height: 970px;
 }
 
 img {
@@ -37,8 +39,7 @@ img {
 .sidebar{
     color: #f1f1f1;
     background-color:#1e1e1e;
-    height: 100%;
-    border-left: 0%;
+    height: 970px;
 }
 
 #sidebar-desc {
@@ -59,6 +60,9 @@ img {
 
 }
 
+.sidebar a:hover{
+    color:#dbd7d7
+}
 .sidebar span {
     display:block;
     text-align:center;
